@@ -32,6 +32,9 @@ public class CICDCont {
     }else if (sw == 2) {
       msg = "/cide workflowa 테스트";
       log.info(msg);
+    }else if (sw == 3) {
+      msg = "/cide workflowa 테스트";
+      log.info(msg);
     }
     return "<h3>" + msg + "</h3>";
   }
